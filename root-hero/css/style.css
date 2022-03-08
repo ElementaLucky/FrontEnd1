@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+body{
+    width: 1024px;
+    height: 1024px;
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+div{
+    box-sizing: border-box; 
+}
+.ofertaRec{
+    width: 1024px;
+    height: 38px;
+    background-color: #1CD1B0;
+    padding: 10px 10px 10px 10px;
+
+}
+
+.h2descuento{
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    line-height: 18px;
+
+}
+.heroeRec{
+    width: 1024px;
+    height: 101px;
+    background-color: #00669F;
+    float: left;
+    clear: none;
+    position: relative;
+    top: 0px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+.h1heroe{
+    font-size: 40px;
+    margin-top: 28px;
+    margin-bottom: 26px;
+    margin-left: 28px;
+}
+
+.blockHero{
+    width: 1024;
+    height: 530px;
+    background-color: white;
+    padding-right: 30px;
+    padding-left: 30px;
+
+    position: static;
+}
+
+.hero{
+    width: 300px;
+    height: 530px;
+    margin-top: 293px;
+    margin-bottom: 203px;
+    margin-inline: 8px;
+    background-color:#F3F3F3;
+    border-radius: 16px 16px 0px 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    display:inline-block
+    
+
+}
+.fa-solid{
+    transform: translateX(20px) translateY(25px);
+    float: left;
+    clear: none;
+}
+.fondoPerfil{
+    width: 300px;
+    height: 193px;
+
+    border-radius: 16px 16px 0px 0px;
+    display: inline-flex
+}
+.avatar{    
+        /* cambia estos dos valores para definir el tamaño de tu círculo */
+    height: 90px;
+    width: 90px;
+        /* los siguientes valores son independientes del tamaño del círculo */
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+
+    position: relative;
+    right: -105px;
+    top: -60px;
+    display: inline-flex;
+}
+
+
+.titulo{
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 89px; 
+    margin-left: 89px;
+
+    display: inline-flex;
+}
+
+.titulo2{
+
+
+    display: inline-flex;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 58px;
+    display: inline-flex;
+
+
+}
+
+.text{
+
+    width: 267px;
+    height: 113px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: 17px; 
+    margin-left: 16px;
+
+    display: inline-flex;
+
+}
+.rectangle{
+    background-color: #00669F;
+    color: #F3F3F3;
+    width: 128.78px;
+    height: 48.52px;
+    margin: 20px 20px 85px 86px ;
+    
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    display: inline-flex;
+
+    
+}
+.footer{
+    background-color: #00669F;
+    color: #F3F3F3;
+    box-sizing: border-box;
+    width: 1024px;
+    height: 51px;
+    position: absolute;
+    bottom: -500px;
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
